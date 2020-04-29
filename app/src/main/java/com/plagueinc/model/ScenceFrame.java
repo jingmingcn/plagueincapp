@@ -38,13 +38,13 @@ public class ScenceFrame {
         this.paint_infected_circle.setStrokeWidth(2f);
 
         this.paint_dead = new Paint();
-        this.paint_dead.setColor(Color.WHITE);
+        this.paint_dead.setColor(Color.BLACK);
 
         this.paint_immunity = new Paint();
-        this.paint_immunity.setColor(Color.YELLOW);
+        this.paint_immunity.setColor(Color.BLUE);
 
         this.paint_quarantined = new Paint();
-        this.paint_quarantined.setColor(Color.WHITE);
+        this.paint_quarantined.setColor(Color.BLACK);
         this.paint_quarantined.setStyle(Paint.Style.STROKE);
         this.paint_quarantined.setStrokeWidth(2f);
 

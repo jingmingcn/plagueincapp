@@ -69,6 +69,7 @@ public class DrawingThread extends Thread {
                 scenceFrame.doLogic();
 
                 canvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR);
+                canvas.drawColor(-1);
 
                 scenceFrame.drawOn(canvas);
 
